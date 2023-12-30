@@ -1,4 +1,4 @@
-from pypylon import pylon
+efrom pypylon import pylon
 import cv2
 import os
 import numpy as np
@@ -9,7 +9,7 @@ from pathlib import Path
 
 path1 = "/home/s186/Downloads/Data_colection/weights/best.pt"
 # Load the YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'custom','/home/kshitizkumar/Desktop/weights/best.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom',path1)
 # Set the model to evaluation mode
 model.eval()
 
